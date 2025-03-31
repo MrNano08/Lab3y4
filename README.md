@@ -1,12 +1,47 @@
-# React + Vite
+# React Labs - Props, Prop Drilling & useContext
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene dos laboratorios prácticos enfocados en la gestión del estado y la comunicación entre componentes en React. Cada laboratorio explora diferentes enfoques para compartir datos dentro de una aplicación.
 
-Currently, two official plugins are available:
+## 📌 Laboratorios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1️⃣ Props y Prop Drilling
+En esta sección, se implementó una **demostración** de un sistema de autenticación utilizando `props` para compartir información entre componentes. Este ejercicio ilustra cómo las `props` pueden utilizarse para pasar datos desde un componente padre a múltiples niveles de componentes hijos, un patrón conocido como **prop drilling**.
 
-## Expanding the ESLint configuration
+📺 Video explicativo: [Props y Prop Drilling](https://www.youtube.com/watch?v=S4jObBk-zxo&ab_channel=AlexVillegas)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2️⃣ useContext Hook
+Para mitigar el problema del **prop drilling**, en esta fase del laboratorio se utilizó el hook `useContext` de React. Este permite compartir estados globales dentro de la aplicación sin necesidad de pasar `props` manualmente a través de múltiples niveles de componentes, mejorando la mantenibilidad del código.
+
+📺 Video explicativo: [useContext Hook](https://www.youtube.com/watch?v=NyqLR4PaszQ&feature=youtu.be)
+
+## 🚀 Tecnologías utilizadas
+- React con Vite
+- Hooks de React (`useState`, `useContext`)
+- JavaScript / JSX
+- Estilos con CSS (opcional)
+
+## 🛠 Instalación y ejecución
+1. Clona este repositorio:
+   ```sh
+   git clone https://github.com/MrNano08/Lab3y4.git
+   ```
+2. Accede al proyecto:
+   ```sh
+   cd Lab3y4
+   ```
+3. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```sh
+   npm run dev
+   ```
+
+## 📄 Licencia
+Este proyecto se distribuye bajo la licencia MIT.
+
+---
+
+📌 *Este archivo README fue generado con la asistencia de ChatGPT.*
+
